@@ -1,0 +1,62 @@
+body{
+    width: 100vw;
+    height: 100vh;
+}
+
+h3{
+
+    color:white;
+    font-size:20px;
+
+    display:flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+    margin-top: 4px;
+    margin-bottom: 4px;
+}
+
+h4{
+
+    color:white;
+    font-size:10px;
+
+    display:flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+    margin-top: 4px;
+    margin-bottom: 4px;
+
+}
+
+
+.card{
+
+    width: 250px;
+    height: 400px;
+    background-size: cover;
+    background-position: center;
+
+    /*add a linear gradient to the brackground image to make the text more readable */
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.7), transparent 60%),
+  url("https://cdn.sanity.io/images/q0x34hon/production/a1b544ecb97070cf36c5d2044437260a7c6d2b2c-2000x2800.png?fm=webp&w=720");
+
+    display:flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+
+    padding: 16px;
+    /* add rounded coners to the card */
+    border-radius: 8px;
+    width:24%;
+
+    /*add a shadow effect to the card */
+      box-shadow: 0 10px 25px rgba(0, 0, 0, 0.25);
+}
+
+.section{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;}
+    
